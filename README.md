@@ -1,6 +1,6 @@
 # Homeostatic Reinforcement Learning Agent 
 
-A groundbreaking biologically-inspired AI system where an agent learns to survive by maintaining internal physiological balance. This project successfully demonstrates **Homeostatic Reinforcement Learning (HRL)** - a cutting-edge research concept that bridges artificial intelligence and neuroscience.
+A biologically-inspired AI system where an agent learns to survive by maintaining internal physiological balance. This project successfully demonstrates **Homeostatic Reinforcement Learning (HRL)** - a cutting-edge research concept that bridges artificial intelligence and neuroscience.
 
 ## 🏆 **RESULTS**
 
