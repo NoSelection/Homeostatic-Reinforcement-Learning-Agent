@@ -91,7 +91,8 @@ def train_homeostatic_agent(total_timesteps=100000):
             activation_fn=torch.nn.ReLU
         ),
         verbose=1,
-        tensorboard_log="./logs/"
+        tensorboard_log="./logs/",
+        device="cuda" if torch.cuda.is_available() else "cpu"
     )
     
     # Set the logger

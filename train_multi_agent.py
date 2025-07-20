@@ -128,12 +128,13 @@ def train_multi_agent_comparison():
                 net_arch=[128, 128],
                 activation_fn=torch.nn.ReLU
             ),
-            verbose=1
+            verbose=1,
+            device="cuda" if torch.cuda.is_available() else "cpu"
         )
         
         # Train
         callback = MultiAgentCallback()
-        model.learn(total_timesteps=30000, callback=callback, progress_bar=True)
+        model.learn(total_timesteps=1_000_000, callback=callback, progress_bar=True)
         
         # Save model
         model_name = f"multi_agent_{scenario['name'].lower()}"

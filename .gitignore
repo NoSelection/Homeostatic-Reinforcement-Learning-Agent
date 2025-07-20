@@ -165,6 +165,7 @@ cython_debug/
 *.zip
 homeostatic_agent*
 multi_agent_*
+!multi_agent_env.py
 
 # Training logs and outputs
 logs/

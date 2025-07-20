@@ -58,6 +58,7 @@ Resource Density: High (easier learning)
 ```bash
 pip install -r requirements.txt
 ```
+Training scripts will automatically use a CUDA-enabled GPU if available.
 
 ### 2. Run the Working Demo
 ```bash
@@ -175,9 +176,11 @@ This project demonstrates:
 - **Curriculum Learning**: Gradually increase difficulty from easy→normal→hard
 - **Longer Training**: 10M+ steps may achieve 80%+ survival rates
 - **Architecture**: Try different RL algorithms (SAC, TD3, etc.)
+- **GPU Acceleration**: Training scripts automatically use CUDA when available
 
-### Advanced Features  
+### Advanced Features
 - **Multi-Agent Scenarios**: Resource competition and cooperation
+- **New Multi-Agent Environment**: Agents share resources via `multi_agent_env.py`
 - **Dynamic Environments**: Changing resource locations and scarcity
 - **Complex Physiology**: Circadian rhythms, stress responses, aging
 - **Real-World Applications**: Robot energy management, smart home systems

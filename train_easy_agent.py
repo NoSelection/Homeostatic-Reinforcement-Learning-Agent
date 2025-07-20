@@ -94,7 +94,8 @@ def train_easy_agent(total_timesteps=200000):
             activation_fn=torch.nn.ReLU
         ),
         verbose=1,
-        tensorboard_log="./easy_logs/"
+        tensorboard_log="./easy_logs/",
+        device="cuda" if torch.cuda.is_available() else "cpu"
     )
     
     # Set the logger
