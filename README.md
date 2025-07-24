@@ -147,7 +147,7 @@ obs_space = [x, y, hunger, thirst, energy,
 - Shows biological realism in resource-seeking behavior
 - Exhibits panic-like behavior when critically low on any variable
 
-## 🌟 Portfolio Significance
+## 🌟Significance
 
 This project demonstrates:
 
